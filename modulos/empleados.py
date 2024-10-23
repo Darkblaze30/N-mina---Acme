@@ -34,7 +34,7 @@ def registroEmpleados():
   except ValueError:
     print("debe ingresar un numero, vuelve a intentar")
     return
-  print (infoDB)
+  
   infoDB.append({
     "identificacion": identificacion,
     "nombre": nombre,
@@ -50,21 +50,6 @@ def registroEmpleados():
   guardarInfo(infoDB)
 
 
-def registroInasistencias():
-  infoDB = traerInfo()
-  identificacion = input("numero de identificacion --> ").strip()
-  Empleado = buscarEmpleado(infoDB, identificacion)
-  if Empleado:
-    fecha = input("ingrese la fecha de la inasistencia DD/MM/YYYY --> ")
-    formatofecha = fecha.split("/")
-    print(formatofecha[1])
-    Empleado["inasistenciasTotal"] += 1
-    Empleado["inasistenciasInfo"].append(
-      {"fecha": fecha}
-    )
-    guardarInfo(infoDB)
-  else:
-    print("no se encontro un empleado con este numero de indentificacion: ",identificacion)
 
 def registroInasistencias():
   infoDB = traerInfo()
