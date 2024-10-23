@@ -1,0 +1,10 @@
+          nombre: Juan
+          identificacion: 123
+          cargo: dev
+          salario: 2500000
+
+descuento de salud: 100000.0
+descuento de pension: 100000.0
+descuento por 0 inasistencias: 0.0
+bonos: 100000
+salario a pagar: 2400000.0

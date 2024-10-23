@@ -1,0 +1,11 @@
+          nombre: Pablo
+          identificacion: 12234
+          cargo: conserje
+          salario: 1200000
+
+descuento de salud: 48000.0
+descuento de pension: 48000.0
+auxilio de transporte: 120000.0
+descuento por 4 inasistencias: 160000.0
+bonos: 0
+salario a pagar: 1064000.0

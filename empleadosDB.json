@@ -1,0 +1,41 @@
+[
+    {
+        "identificacion": "123",
+        "nombre": "Juan",
+        "cargo": "dev",
+        "salario": 2500000,
+        "inasistenciasTotal": 0,
+        "bonosTotal": 100000,
+        "inasistenciasInfo": [
+            {
+                "fecha": "23/10/2024",
+                "concepto": "horas extra",
+                "valor": 100000
+            }
+        ],
+        "bonosInfo": []
+    },
+    {
+        "identificacion": "12234",
+        "nombre": "Pablo",
+        "cargo": "conserje",
+        "salario": 1200000,
+        "inasistenciasTotal": 4,
+        "bonosTotal": 0,
+        "inasistenciasInfo": [
+            {
+                "fecha": "23/09/2022"
+            },
+            {
+                "fecha": "18/9/12"
+            },
+            {
+                "fecha": "12"
+            },
+            {
+                "fecha": "10/09/2012"
+            }
+        ],
+        "bonosInfo": []
+    }
+]
